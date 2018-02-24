@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>future-service-inter</artifactId>
+    <packaging>jar</packaging>
 
 
 </project>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/future.iml" filepath="$PROJECT_DIR$/future.iml" />
+      <module fileurl="file://$PROJECT_DIR$/future-dao/future-dao.iml" filepath="$PROJECT_DIR$/future-dao/future-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-domain/future-domain.iml" filepath="$PROJECT_DIR$/future-domain/future-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-service/future-service.iml" filepath="$PROJECT_DIR$/future-service/future-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-service/future-service (1).iml" filepath="$PROJECT_DIR$/future-service/future-service (1).iml" />

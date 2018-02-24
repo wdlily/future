@@ -1,0 +1,8 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.30.113
+    port: 6379
+
+
