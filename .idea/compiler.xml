@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="future-domain" />
+        <module name="future-service-impl" />
+        <module name="future-service-inter" />
+        <module name="future-utils" />
+        <module name="future-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="future" target="1.5" />
+      <module name="future-domain" target="1.5" />
+      <module name="future-service" target="1.5" />
+      <module name="future-service (1)" target="1.5" />
+      <module name="future-service-impl" target="1.5" />
+      <module name="future-service-inter" target="1.5" />
+      <module name="future-utils" target="1.5" />
+      <module name="future-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

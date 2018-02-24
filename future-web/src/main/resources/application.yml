@@ -1,0 +1,19 @@
+#spring:
+#  data:
+#    mongodb:
+#      host: 127.0.0.1
+#      port: 27017
+#      database: future
+#      username: future
+#      password: future
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    pool:
+#      max-active: 10
+server:
+  context-path: /future
+  port: 8080
+
+
+
