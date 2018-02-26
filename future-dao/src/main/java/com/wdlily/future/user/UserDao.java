@@ -12,7 +12,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserDao extends MongoRepository<User, String> {
 
-    User insert(User user);
-
 
 }

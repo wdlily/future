@@ -1,6 +1,9 @@
 package com.wdlily.future.entity;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+
+import java.io.Serializable;
 
 /**
  * @Description: 用户实体
@@ -8,11 +11,12 @@ import lombok.Data;
  * @Date: 2018/2/24 14:31
  */
 @Data
-public class User {
+public class User implements Serializable{
 
     /**
      * openId
      */
+    @Id
     private String openId;
 
     /**

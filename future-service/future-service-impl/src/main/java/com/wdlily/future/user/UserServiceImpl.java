@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @Author: WangDi
  * @Date: 2018/1/27 20:44
  */
-@Service
+@Service("userService")
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -26,5 +26,8 @@ public class UserServiceImpl implements UserService {
         return userDao.insert(user);
     }
 
-
+    @Override
+    public User findOne(String openId) {
+        return userDao.findOne(openId);
+    }
 }

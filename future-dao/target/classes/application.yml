@@ -1,9 +1,13 @@
-spring:
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-      database: future
-      username: future
-      password: future
+#spring:
+#  data:
+#    mongodb:
+#      database: future
+#      host: 192.168.1.17
+#      port: 27017
+#      username: future
+#      password: future
+#      authentication-database: future
+#      repositories:
+#          enabled: true
+
 

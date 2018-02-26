@@ -11,6 +11,7 @@
 #    port: 6379
 #    pool:
 #      max-active: 10
+
 server:
   context-path: /future
   port: 80

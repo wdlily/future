@@ -13,4 +13,6 @@ public interface UserService {
 
     User insert(User user);
 
+    User findOne(String openId);
+
 }
