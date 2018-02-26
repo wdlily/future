@@ -16,5 +16,18 @@ server:
   context-path: /future
   port: 80
 
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: true
+      max-connections: 50
+      expiry-timeout: 5000
+      idle-timeout: 30000
+  jms:
+    pub-sub-domain: true
+
 
 

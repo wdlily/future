@@ -19,7 +19,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.10.RELEASE</version>
+        <version>1.5.9.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -34,7 +34,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <spring.version>5.0.4.RELEASE</spring.version>
-        <springboot.version>1.5.10.RELEASE</springboot.version>
+        <springboot.version>1.5.9.RELEASE</springboot.version>
         <mongodb.java.driver>3.2.2</mongodb.java.driver>
         <dubbo.version>2.6.0</dubbo.version>
         <lombok.version>1.16.18</lombok.version>
@@ -127,7 +127,17 @@
                 <version>1.46</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-activemq</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
 
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-pool</artifactId>
+                <version>5.15.3</version>
+            </dependency>
 
 
 
