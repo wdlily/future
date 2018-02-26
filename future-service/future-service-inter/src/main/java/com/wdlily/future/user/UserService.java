@@ -1,5 +1,7 @@
 package com.wdlily.future.user;
 
+import com.wdlily.future.entity.User;
+
 /**
  * @Description:
  * @Author: WangDi
@@ -7,6 +9,10 @@ package com.wdlily.future.user;
  */
 public interface UserService {
 
-    public String login(String userName, String password);
+    public String login(User user);
+
+    User insert(User user);
+
+    User findOne(String openId);
 
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/future-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/future-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/future-domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/future-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/future-service/future-service-impl" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/future-service/future-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/future-service/future-service-inter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/future-service/future-service-inter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/future-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/future-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/future-web" charset="UTF-8" />
   </component>
 </project>

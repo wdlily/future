@@ -1,0 +1,17 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  data:
+    mongodb:
+      database: future
+      host: localhost
+      port: 27017
+      username: future
+      password: future
+#      authentication-database: future
+#      repositories:
+#          enabled: true
+
+
+
+

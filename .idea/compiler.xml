@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="future-dao" />
         <module name="future-domain" />
         <module name="future-service-impl" />
         <module name="future-service-inter" />
@@ -14,14 +15,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="future" target="1.5" />
-      <module name="future-domain" target="1.5" />
-      <module name="future-service" target="1.5" />
+      <module name="future" target="1.8" />
+      <module name="future-dao" target="1.8" />
+      <module name="future-domain" target="1.8" />
+      <module name="future-service" target="1.8" />
       <module name="future-service (1)" target="1.5" />
-      <module name="future-service-impl" target="1.5" />
-      <module name="future-service-inter" target="1.5" />
-      <module name="future-utils" target="1.5" />
-      <module name="future-web" target="1.5" />
+      <module name="future-service-impl" target="1.8" />
+      <module name="future-service-inter" target="1.8" />
+      <module name="future-utils" target="1.8" />
+      <module name="future-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

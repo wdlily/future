@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://code.alibabatech.com/schema/dubbo
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-lazy-init="false">
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="future-provider" id="future-provider" />
+
+    <!--<dubbo:registry address="zookeeper://${dubbo.server}"
+        check="false" subscribe="false" register="true"></dubbo:registry>-->
+
+    <dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" check="false" subscribe="false" register="true"/>
+
+    <!-- 方式二 -->
+    <!-- <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181,127.0.0.1:2181"></dubbo:registry> -->
+
+    <dubbo:protocol name="dubbo" port="20880" />
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.wdlily.future.user.UserService"
+                   ref="userService" timeout="30000" version="${dubbo.version}" retries="0" />
+
+
+
+</beans>
