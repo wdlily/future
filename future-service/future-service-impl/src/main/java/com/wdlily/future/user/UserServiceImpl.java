@@ -1,6 +1,7 @@
 package com.wdlily.future.user;
 
 import com.wdlily.future.entity.User;
+import com.wdlily.future.mongo.user.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

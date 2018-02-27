@@ -1,15 +1,9 @@
-package main.com.wdlily.future;
+package com.wdlily.future;
 
 import java.util.Random;
 
-/**
- * @Description:
- * @Author: WangDi
- * @Date: 2018/2/24 17:52
- */
-public class KeyUtil {
 
-    private KeyUtil(){}
+public class KeyUtil {
 
     /**
      * 生成唯一的主键
@@ -26,5 +20,4 @@ public class KeyUtil {
     public static void main(String[] args) {
         System.out.println(KeyUtil.genUniqueKey());
     }
-
 }

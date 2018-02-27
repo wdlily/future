@@ -1,4 +1,4 @@
-package com.wdlily.future.user;
+package com.wdlily.future.mongo.user;
 
 import com.wdlily.future.entity.User;
 import org.springframework.data.mongodb.repository.MongoRepository;

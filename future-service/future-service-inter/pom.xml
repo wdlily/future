@@ -12,5 +12,13 @@
     <artifactId>future-service-inter</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.wdlily.future</groupId>
+            <artifactId>future-domain</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

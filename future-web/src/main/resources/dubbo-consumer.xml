@@ -6,7 +6,7 @@
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="${dubbo.application.name}" />
+    <dubbo:application name="${dubbo.application.name}"/>
     <!-- <dubbo:registry address="multicast://224.5.6.7:1234" /> -->
     <dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}"/>
     <!--<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" file="/root/dubbocache/sc/dubbo-registery-web.cache"/>-->
@@ -15,7 +15,9 @@
     <!--<dubbo:registry id="oldUser" address="zookeeper://192.168.1.110:2181" default="false"/>-->
 
     <dubbo:reference id="userService"
-                     interface="com.wdlily.future.user.UserService" version="${dubbo.version}" />
+                     interface="com.wdlily.future.user.UserService" version="${dubbo.version}"/>
 
+    <dubbo:reference id="orderMasterService"
+                     interface="com.wdlily.future.order.OrderMasterService" version="${dubbo.version}"/>
 
 </beans>

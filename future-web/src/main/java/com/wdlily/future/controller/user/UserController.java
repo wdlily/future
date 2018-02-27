@@ -31,7 +31,6 @@ public class UserController {
     }
 
     @GetMapping("/save")
-    @ResponseBody
     public Msg save(User user){
 
         User insert = userService.insert(user);
@@ -41,7 +40,6 @@ public class UserController {
 
 
     @GetMapping("/find/{openId}")
-    @ResponseBody
     public Msg findById(@PathVariable("openId") String openId){
 
         User user = userService.findOne(openId);
