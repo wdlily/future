@@ -1,4 +1,4 @@
-package com.wdlily.future;
+package com.wdlily.future.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
