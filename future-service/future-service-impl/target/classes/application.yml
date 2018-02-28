@@ -8,6 +8,11 @@ spring:
       port: 27017
       username: future
       password: future
+  redis:
+    host: 192.168.1.17
+    port: 6379
+    password: future
+
 #      authentication-database: future
 #      repositories:
 #          enabled: true

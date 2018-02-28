@@ -16,6 +16,8 @@
   - activemq 
   - mybatis 
   - dubbo
+  - redis
+  - distributed session
   
 **pendding**
   - redis 
@@ -27,6 +29,11 @@
   - poi
   - thymeleaf
   - quartz
+  - wx card
+  - digital signature
+  - qrcode
+  
+  
   
 
 
