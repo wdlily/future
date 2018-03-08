@@ -52,6 +52,7 @@
         <commons-lang.version>2.6</commons-lang.version>
         <fastjson.version>1.2.45</fastjson.version>
         <spring.session.redis.version>2.0.1.RELEASE</spring.session.redis.version>
+        <quartz.version>2.3.0</quartz.version>
     </properties>
 
     <dependencyManagement>
@@ -235,6 +236,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>${quartz.version}</version>
             </dependency>
 
 

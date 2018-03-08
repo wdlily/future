@@ -43,6 +43,8 @@ spring:
         min-idle: 2
       # 0 用于数据存储 1 用于分布式session
       database: 1
-
+  profiles:
+    active: dev
+    include: dev, prd, test
 
 

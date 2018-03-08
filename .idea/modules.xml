@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/future-dao/future-dao.iml" filepath="$PROJECT_DIR$/future-dao/future-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-domain/future-domain.iml" filepath="$PROJECT_DIR$/future-domain/future-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-service/future-service.iml" filepath="$PROJECT_DIR$/future-service/future-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/future-service/future-service (1).iml" filepath="$PROJECT_DIR$/future-service/future-service (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/future-service/future-service-impl/future-service-impl.iml" filepath="$PROJECT_DIR$/future-service/future-service-impl/future-service-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-service/future-service-inter/future-service-inter.iml" filepath="$PROJECT_DIR$/future-service/future-service-inter/future-service-inter.iml" />
       <module fileurl="file://$PROJECT_DIR$/future-utils/future-utils.iml" filepath="$PROJECT_DIR$/future-utils/future-utils.iml" />

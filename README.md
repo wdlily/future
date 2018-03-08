@@ -20,12 +20,10 @@
   - distributed session
   
 **pendding**
-  - redis 
   - shiro
   - wx pay
   - alipay
   - elasticSearch
-  - solr
   - poi
   - thymeleaf
   - quartz
